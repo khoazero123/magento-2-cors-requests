@@ -15,11 +15,11 @@ Edit `composer.json`
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/splashlab/magento-2-cors-requests"
+            "url": "https://github.com/khoazero123/magento-2-cors-requests"
         }
     ],
     "require": {
-        "splashlab/magento-2-cors-requests": "dev-master"
+        "khoazero123/magento-2-cors-requests": "dev-master"
     }
 }
 ```
