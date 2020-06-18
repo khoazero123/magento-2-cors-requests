@@ -1,10 +1,10 @@
 <?php
 
 /**
- * @copyright  Copyright 2017 SplashLab
+ * @copyright  Copyright 2017 Khoazero123
  */
 
-namespace SplashLab\CorsRequests\Plugin;
+namespace Khoazero123\CorsRequests\Plugin;
 
 use Magento\Framework\Webapi\Rest\Request;
 use Magento\Webapi\Controller\Rest\Router;
@@ -12,7 +12,7 @@ use Magento\Webapi\Controller\Rest\Router;
 /**
  * Class CorsRequestMatchPlugin
  *
- * @package SplashLab\CorsRequests
+ * @package Khoazero123\CorsRequests
  */
 class CorsRequestMatchPlugin
 {
@@ -82,7 +82,7 @@ class CorsRequestMatchPlugin
             '/V1/cors/check'
         );
 
-        $route->setServiceClass('SplashLab\CorsRequests\Api\CorsCheckInterface')
+        $route->setServiceClass('Khoazero123\CorsRequests\Api\CorsCheckInterface')
             ->setServiceMethod('check')
             ->setSecure(false)
             ->setAclResources(['anonymous'])

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @copyright  Copyright 2017 SplashLab
+ * @copyright  Copyright 2017 Khoazero123
  */
 -->
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -9,7 +9,7 @@
 
     <!-- Example: curl http://127.0.0.1/index.php/rest/V1/cors/check/ -->
     <route url="/V1/cors/check" method="GET">
-        <service class="SplashLab\CorsRequests\Api\CorsCheckInterface" method="check"/>
+        <service class="Khoazero123\CorsRequests\Api\CorsCheckInterface" method="check"/>
         <resources>
             <resource ref="anonymous"/>
         </resources>

@@ -1,10 +1,10 @@
 <?php
 
 /**
- * @copyright  Copyright 2017 SplashLab
+ * @copyright  Copyright 2017 Khoazero123
  */
 
-namespace SplashLab\CorsRequests\Plugin;
+namespace Khoazero123\CorsRequests\Plugin;
 
 use Magento\Framework\App\FrontControllerInterface;
 use Magento\Framework\App\RequestInterface;
@@ -12,7 +12,7 @@ use Magento\Framework\App\RequestInterface;
 /**
  * Class CorsHeadersPlugin
  *
- * @package SplashLab\CorsRequests
+ * @package Khoazero123\CorsRequests
  */
 class CorsHeadersPlugin
 {

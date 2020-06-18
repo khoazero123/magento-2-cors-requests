@@ -1,15 +1,15 @@
 <?php
 /**
- * @copyright  Copyright 2017 SplashLab
+ * @copyright  Copyright 2017 Khoazero123
  */
 
-namespace SplashLab\CorsRequests\Model;
+namespace Khoazero123\CorsRequests\Model;
 
-use SplashLab\CorsRequests\Api\CorsCheckInterface;
+use Khoazero123\CorsRequests\Api\CorsCheckInterface;
 
 /**
  * Class CorsCheck
- * @package SplashLab\CorsRequests\Model
+ * @package Khoazero123\CorsRequests\Model
  */
 class CorsCheck implements CorsCheckInterface
 {

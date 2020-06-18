@@ -1,4 +1,4 @@
-# Magento 2 CORS Cross-Domain Requests by SplashLab
+# Magento 2 CORS Cross-Domain Requests by Khoazero123
 
 This module allows you to enable Cross-Origin Resource Sharing (CORS) REST API requests in Magento 2 by adding the appropriate HTTP headers and handling the pre-flight OPTIONS requests.
 
@@ -34,7 +34,7 @@ php bin/magento setup:static-content:deploy
 
 Download latest version from GitHub
 
-Paste into `app/code/SplashLab/CorsRequests` directory
+Paste into `app/code/Khoazero123/CorsRequests` directory
 
 ```
 php bin/magento setup:upgrade

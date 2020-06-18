@@ -1,15 +1,15 @@
 <?php
 
 /**
- * @copyright  Copyright 2017 SplashLab
+ * @copyright  Copyright 2017 Khoazero123
  */
 
-namespace SplashLab\CorsRequests\Api;
+namespace Khoazero123\CorsRequests\Api;
 
 /**
  * Interface CorsCheckInterface
  * @api
- * @package SplashLab\CorsRequests\Api
+ * @package Khoazero123\CorsRequests\Api
  */
 interface CorsCheckInterface
 {
